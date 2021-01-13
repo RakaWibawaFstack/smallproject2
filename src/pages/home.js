@@ -1,10 +1,12 @@
-import footerImage from '../image/menu-icon.jpg';
+import footerImage from "../image/Group.png";
 import cartImage from '../image/cart.png';
+import Navbar from './navbar';
 
 const Home = () => {
 
       return (
-        <div className="bg-grey">
+        <div>
+        <Navbar></Navbar>
           <div className="container">
             <div className="headline d-flex1">
               <div className="title" id="title">
@@ -54,14 +56,15 @@ const Home = () => {
                 <div className="celar" />
               </div>
             </div>
+            </div>
             <footer>
               <div className="img4">
                 <div className="menuimg">
-                  <img src={footerImage} width="45px" height="45px" text-align="center" />
+                  <img src={footerImage} text-align="center" />
                 </div>
               </div>
             </footer>
-          </div></div>
+          </div>
       );
     }
   

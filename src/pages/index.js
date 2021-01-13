@@ -1,4 +1,4 @@
-import footerImage from "../image/menu-icon.jpg";
+import footerImage from "../image/Group.png";
 import primeImage from "../image/fashion1.jpg";
 import primeImage2 from "../image/fashion2.png";
 import primeImage3 from "../image/fashion3.jpg";
@@ -6,12 +6,15 @@ import primeImage4 from "../image/fashion4.jpg";
 import cartImage from "../image/cart.png";
 import { useState } from "react";
 import { connect } from "react-redux";
+import Navbar from './navbar';
 
 const Index = ({ products, counter, tambahSatu, addCart, carts }) => {
   console.log(carts)
   //const [products, setProducts] = useState(listProducts);
   const [productIndex, setProductIndex] = useState(0);
   return (
+    <div>
+        <Navbar></Navbar>
     <div>
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width. initial=scale=1.0" />
@@ -69,12 +72,7 @@ const Index = ({ products, counter, tambahSatu, addCart, carts }) => {
             </div>
           </div>
           <div className="category">
-            <img
-              src={cartImage}
-              width="45px"
-              height="45px"
-              text-align="right"
-            />
+          
             <ul className="list-container">
               <li className="li-style-none"> </li>
               <a className="link-buttonb" href="./">
@@ -157,13 +155,12 @@ const Index = ({ products, counter, tambahSatu, addCart, carts }) => {
             </div>
           </div>
         </div>
+        </div>
         <footer>
           <div className="img4">
             <div className="menuimg">
               <img
                 src={footerImage}
-                width="45px"
-                height="45px"
                 text-align="center"
               />
             </div>

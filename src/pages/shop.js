@@ -1,9 +1,12 @@
-import footerImage from '../image/menu-icon.jpg';
+import footerImage from "../image/Group.png";
 import cartImage from '../image/cart.png';
+import Navbar from './navbar';
 
 const Shop = () => {
 
       return (
+        <div>
+        <Navbar></Navbar>
         <div>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width. initial=scale=1.0" />
@@ -15,16 +18,9 @@ const Shop = () => {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <div className="container">
           <div className="headline1">
-            <p>
-              <b>Your Shop Name</b>
-            </p><form className="example" action="/action_page.php" style={{margin: 'auto', maxWidth: '300px'}}>
-              <input type="text" placeholder="PRODUCT" name="search" />
-              <button type="submit"><i className="fa fa-search" /></button>
-            </form>
-            <p />
+           
             <div className="category">
               <a className="link-buttonb" href="./">GO BACK</a>
-              <img src={cartImage} width="45px" height="45px" text-align="right" />
             </div>
             <br />
           </div>
@@ -120,11 +116,12 @@ const Shop = () => {
               </div>
                 <div className="celar" />
               </div>
+              </div>
 
               <footer>
               <div className="img4">
                 <div className="menuimg">
-                  <img src={footerImage} width="45px" height="45px" text-align="center" />
+                  <img src={footerImage} text-align="center" />
                 </div>
               </div>
             </footer>
