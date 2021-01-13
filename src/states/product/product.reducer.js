@@ -19,7 +19,7 @@ const listProducts = [{
     productMaterial: "100% Fleece",
     productPrice: 23.99,
     productSex: "Mens",
-    productSex: "",
+    productSize: "",
     productPayment: "Mandiri",
     productDiscount: "$45.99"
   },{
