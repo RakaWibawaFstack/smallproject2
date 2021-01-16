@@ -1,6 +1,10 @@
 import footerImage from "../image/Group.png";
 import cartImage from '../image/cart.png';
 import Navbar from './navbar';
+import {
+  BrowserRouter as Router,
+  Link,
+} from "react-router-dom";
 
 const Shop = () => {
 
@@ -43,44 +47,63 @@ const Shop = () => {
                 <li className="li-style-none"><b>CATEGORY 5</b></li>
               </ul>
             </div>
+            
             <div className="picture d-flexindex">
               <div className="img1a img-center">
+              <Link to="./index">
                 <h5>TITLE HERE</h5>
                 <p>CATEGORY</p>
+                </Link>
               </div>
               <div className="img2a img-center">
+              <Link to="./index1">
                 <h5>TITLE HERE</h5>
                 <p>CATEGORY</p>
+                </Link>
               </div>
               <div className="img3a img-center">
+              <Link to="./index2">
                 <h5>TITLE HERE</h5>
                 <p>CATEGORY</p>
+                </Link>
               </div>
               <div className="celar" />
-              <div className="img1a img-center">
+              <div className="img4a img-center">
+              <Link to="./index3">
                 <h5>TITLE HERE</h5>
                 <p>CATEGORY</p>
+                </Link>
+              </div>
+              <div className="img1a img-center">
+              <Link to="./index">
+                <h5>TITLE HERE</h5>
+                <p>CATEGORY</p>
+                </Link>
               </div>
               <div className="img2a img-center">
+              <Link to="./index1">
                 <h5>TITLE HERE</h5>
                 <p>CATEGORY</p>
+                </Link>
               </div>
               <div className="img3a img-center">
+              <Link to="./index2">
                 <h5>TITLE HERE</h5>
                 <p>CATEGORY</p>
+                </Link>
               </div>
               <div className="celar" />
+              <div className="img4a img-center">
+              <Link to="./index3">
+                <h5>TITLE HERE</h5>
+                <p>CATEGORY</p>
+                </Link>
+              </div>
               <div className="img1a img-center">
+              <Link to="./index">
                 <h5>TITLE HERE</h5>
                 <p>CATEGORY</p>
-              </div>
-              <div className="img2a img-center">
-                <h5>TITLE HERE</h5>
-                <p>CATEGORY</p>
-              </div>
-              <div className="img3a img-center">
-                <h5>TITLE HERE</h5>
-                <p>CATEGORY</p>
+                </Link>
               </div>
               <div className="celar" />
               <nav aria-label="Page navigation example">
